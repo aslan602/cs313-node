@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Figure your postage</title>
+</head>
+<body>
+	<h1>Enter your postage information</h1>
+	<form action="/postage" method="get">
+		<select name="package">
+			<option>Stamped Letter</option>
+			<option>Metered Letter</option>
+			<option>Large Envelope</option>
+			<option>First Class Package Service</option>
+		</select>
+		<p>Enter the weight:</p>
+		<input type="text" name="weight">
+		
+
+		<br><br>
+		<input type="submit" value="Get Price">
+
+	</form>
+</body>
+</html>
